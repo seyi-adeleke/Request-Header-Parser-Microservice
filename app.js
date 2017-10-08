@@ -30,9 +30,6 @@ app.get('/api/whoami', (req, res) => {
         browser: client.toAgent(),
         software: client.os.toString()
     })
-    // res.status(200).send({
-    //     message: 'Welcome to Request Header Parser Microservice'
-    // })
 });
 
 
