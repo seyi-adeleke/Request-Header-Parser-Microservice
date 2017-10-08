@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover --include-all-sources jasmine",
+    "test": "istanbul cover --include-all-sources jasmine && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "start": "node app.js"
   },
   "keywords": [],
@@ -17,6 +17,7 @@
     "useragent": "^2.2.1"
   },
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "istanbul": "^0.4.5",
     "jasmine": "^2.6.0",
     "supertest": "^3.0.0"

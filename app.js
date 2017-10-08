@@ -3,7 +3,6 @@ const http = require('http');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const agent = require('useragent');
-const platform = require('platform');
 
 
 const app = express();
