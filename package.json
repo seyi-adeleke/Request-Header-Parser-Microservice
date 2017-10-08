@@ -1,0 +1,24 @@
+{
+  "name": "request-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover --include-all-sources jasmine",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "morgan": "^1.9.0",
+    "useragent": "^2.2.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.6.0",
+    "supertest": "^3.0.0"
+  }
+}
